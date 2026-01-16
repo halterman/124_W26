@@ -1,0 +1,5 @@
+num1 = int(input('Please enter an integer: '))
+num2 = int(input('Please enter another integer: '))
+# print('The sum of', num1, 'and', num2, 'is', num1 + num2)
+# print('The sum of ' + str(num1) + ' and ' + str(num2) + ' is ' + str(num1 + num2))
+print(f'The sum of {num1} and {num2} is {num1 + num2}')
