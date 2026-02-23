@@ -1,4 +1,4 @@
-# from math import sqrt
+from math import sqrt
 
 for i in range(10, 20):
     # Compute square root of i
