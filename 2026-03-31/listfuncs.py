@@ -21,7 +21,7 @@ def my_max(lst: list[int]) -> int | None:
     for elem in lst:
         if elem > largest:
             largest = elem
-    return largest + 1
+    return largest
     
 
 
