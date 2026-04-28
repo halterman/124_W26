@@ -10,7 +10,7 @@ class Point:
     def __repr__(self) -> str:
         return f'({self.x}, {self.y})'
     
-    def distance(self, other) -> float:    # type:ignore
+    def distance(self, other: Point) -> float: 
         """ Computes the distance between this point and another point. """
         import math
         return math.sqrt((other.x - self.x)*(other.x - self.x) + (other.y - self.y)*(other.y - self.y))  # type:ignore

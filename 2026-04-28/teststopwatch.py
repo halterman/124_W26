@@ -1,0 +1,15 @@
+from stopwatch import Stopwatch
+
+sw1 = Stopwatch()
+sw2 = Stopwatch()
+input('Press enter when you are ready to start timing')
+sw1.start()
+sw2.start()
+input('Press enter when you are ready to stop timing 1')
+sw1.stop()
+input('Press enter when you are ready to stop timing 2')
+sw2.stop()
+print(f'The elapsed time for 1 is {sw1.elapsed()}.')
+print(f'The elapsed time for 2 is {sw2.elapsed()}.')
+print(sw1)
+print(sw2)

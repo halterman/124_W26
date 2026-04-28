@@ -19,12 +19,9 @@ def distance(p1: Point, p2: Point) -> float:
 if __name__ == '__main__':
     pt1 = Point(0, 0)
     pt2 = Point(1, 1)
-    pt3 = (2, 2)
     print(pt1)
     print(pt2)
-    print(pt3)
     dist1 = distance(pt1, pt2)
-    dist3 = distance(pt1, pt3) #type:ignore
-    dist2 = pt1.distance(pt2)  #type:ignore
+    dist2 = pt1.distance(pt2) 
     print(f'1. The distance between {pt1} and {pt2} is {dist1}')
     print(f'2. The distance between {pt1} and {pt2} is {dist2}')
