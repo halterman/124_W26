@@ -1,5 +1,8 @@
+from __future__ import annotations
+
 import math
 from point import Point
+
 
 
 # def distance(p1: Point, p2: Point) -> float:

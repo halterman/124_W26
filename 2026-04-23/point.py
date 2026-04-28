@@ -13,7 +13,7 @@ class Point:
     def distance(self, other: Point) -> float: 
         """ Computes the distance between this point and another point. """
         import math
-        return math.sqrt((other.x - self.x)*(other.x - self.x) + (other.y - self.y)*(other.y - self.y))  # type:ignore
+        return math.sqrt((other.x - self.x)*(other.x - self.x) + (other.y - self.y)*(other.y - self.y))
 
 
 if __name__ == '__main__':
